@@ -1,19 +1,24 @@
 * {
     padding: 0;
     margin: 0;
-    max-width: 1368px;
-}
-body {
-    min-width: 1100px;
+
 }
 header {
+    
     background: url(img/header_logo.png) no-repeat;
     height: 525px;
     background-size: cover; 
+
+}
+body {
+    width: 1368px;
+    min-width: 1150px;
 }
 .container {
     margin: 0 auto;
-    width: 1100px;
+    width: 1150px;
+    padding: 0px 15px;
+    
 }
 /* Logo */
 .logo {
@@ -97,7 +102,7 @@ header {
 }
 .main_text h1 {
     color: #fff; 
-    font-family: 'Indie Flower', cursive;
+    font-family: 'Roboto', sans-serif;
     font-size: 48px;
     font-weight: 700;
     line-height: 55px;
@@ -246,7 +251,7 @@ h2 {
     text-align: center;
     vertical-align: middle;
     position: relative;
-    top: -50px;
+    top: -45px;
     right: -500px;
 }
 .reviews_button a {
@@ -267,7 +272,7 @@ h2 {
     display: inline-block;
     width: 350px;
     margin-top: 70px;
-    padding-left: 60px;
+    padding-left: 20px;
     border-left: 2px solid #a38b70;
     
 }
