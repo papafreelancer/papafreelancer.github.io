@@ -7,15 +7,19 @@
 html {
     overflow-x: hidden;
 }
-header {
+body {
     width: 1368px;
+    min-width: 1150px;
+}
+header {
     height: 545px;
     background: url(img/header_bg.png) no-repeat;
     background-size: cover;
 }
 .container {
-    max-width: 80%;
+    max-width: 1150px;
     margin: 0 auto;
+    padding: 0px 10px;
 }
 .logo {
     margin: 0;
@@ -198,6 +202,9 @@ aside table {
     font-weight: 400;
     line-height: 18px;
     padding-top: 25px;
+}
+.info {
+    width: 60%;
 }
 .info h2 {
     margin-top: 75px;
