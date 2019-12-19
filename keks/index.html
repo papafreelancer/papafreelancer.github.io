@@ -212,35 +212,34 @@
             </div>
             <div class="form_container">
                 <form action="#">
-                    <legend>Представьтесь, пожалуйста:</legend>
+                    <p class="legend">Представьтесь, пожалуйста:</p>
                     <p> <label for="name"></label> <input type="text" id="name" placeholder="Имя «Прозвище» Фамилия">
                     </p> <br>
                     <div class="two_forms">
-                        <legend>Контактный телефон:</legend>
+                        <p class="legend">Контактный телефон:</p>
                         <p> <label for="number"></label> <input type="tel" id="number" placeholder="8 (ХХХ) ХХХ-ХХ-ХХ">
                         </p>
-                        <legend class="email_legend">Электронная почта:</legend>
-                        <p> <label for="id"></label> <input type="email" id="email" placeholder="E-mail"> </p>
+                        <p class="email_legend legend">Электронная почта:</p>
+                        <p> <label for="email"></label> <input type="email" id="email" placeholder="E-mail"> </p>
                     </div>
                     <p class="checkbox_text"><input type="checkbox" checked id="agree">
                         <label class="checkbox" for="agree">Я согласен получать спам и смс на телефон</label></p>
                     <hr>
                     <div class="legend_block">
-                        <legend>Тема обращения:</legend>
+                        <p class="legend">Тема обращения:</p>
                         <label for="apply"></label>
                         <select name="apply" id="apply">
                             <option value="Условия доставки" selected>Условия доставки</option>
                             <option value="Технические проблемы">Технические проблемы</option>
                         </select>
-
-                        <legend>Текст обращения:</legend>
+                        <p class="legend legend_block">Текст обращения:</p>
                         <label for="apply_text"></label>
                         <textarea name="apply_text" id="apply_text" cols="63" rows="2"
                             placeholder="Введите текст вашего обращения"></textarea>
                     </div>
                     <input type="submit" value="Отправить">
+                </form>
             </div>
-            </form>
         </div>
     </section>
     <footer>
