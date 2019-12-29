@@ -4,14 +4,13 @@
 
 }
 header {
-    
     background: url(img/header_logo.png) no-repeat;
-    height: 525px;
+    min-height: 525px;
     background-size: cover; 
 
 }
 body {
-    width: 1368px;
+    max-width: 1368px;
     min-width: 1150px;
 }
 .container {
@@ -20,32 +19,17 @@ body {
     padding: 0px 15px;
     
 }
-/* Logo */
-.logo {
-    padding-top: 30px;
-    width: 250px;
+
+.header-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-bottom: 90px;
+    padding-left: 50px;
+    min-height: 100px;
     
 }
-.logo_img {
-    position: relative;
-    top: 20px;
-}   
-.logo_text1 {
-    position: absolute;
-    top: 50px;
-    left: 230px;
-}
-.logo_text2 {
-    position: absolute;
-    top: 75px;
-    left: 200px;
-}
-/* Main menu */
-.menu_list {
-    list-style: none;
-    text-align: center;
-}
-.menu_list a{
+.header-item {
     text-decoration: none;
     color: #ffffff;
     font-family: Arial;
@@ -55,42 +39,44 @@ body {
     text-transform: uppercase;
     transition: .2s;
 }
-.menu_list li {
-    display: inline-block;
-    padding-left: 60px;
-    position: relative;
-    top: -35px;
+.header-logo {
+    flex-basis: 25%;
+    align-self: flex-end;
 }
-.menu_list a:hover {
+.header-logo::before {
+    content: "";
+    background: url(img/logo.png) no-repeat;
+    position: absolute;
+    left: 85px;
+    width: 100px;
+    height: 100px;
+}
+.header-item a {
+    color: #fff;
+    text-decoration: none;
+}
+.header-item a:hover,
+.header-item a:focus {
     color: #c4bbb7;
     border-bottom: 2px solid #c4bbb7;
+    outline-color: transparent;
 }
-/*Button*/
-.button {
+.order {
+    flex-basis: 10%;
+}
+.order a {
     border: 2px solid white;
-    display: inline-block;
-    width: 166px; 
-    height: 40px;
+    padding: 10px;
     text-align: center;
-    vertical-align: middle;
-    position: relative;
-    right: -920px;
-    top: -70px;
-    
 }
-.button a {
-    text-decoration: none;
-    color: #ffffff;
-    font-family: Arial;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 40px;
-    text-transform: uppercase;
-    transition: .2s;
-}
-.button:hover {
+.order a:focus,
+.order a:hover {
+    color: #c4bbb7;
     border: 2px solid #c4bbb7;
+    padding: 10px;
+    text-align: center;
 }
+
 /*Main text*/
 
 .main_text {
@@ -109,28 +95,19 @@ body {
 }
 /*Features*/
 .features {
-    width: 100%;
-    height: 290px;
+    min-height: 290px;
+}
+.features-flex {
+    min-height: 290px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 30px;
 }
 .feature_unit {
-    display: inline-block;
-    width: 330px;
-    padding-left: 26px;
-    margin-top: 60px;
-    border-right: 1px solid lightgray;
-}
-.feature_unit:nth-child(3) {
-    border: none;
-}
-
-
-.feature_unit img {
-    position: relative;
-    left: 130px;
-}
-.feature_text {
+    flex-basis: 33%;
     text-align: center;
-    
 }
 .feature_unit h3, 
 .feature_unit p {
@@ -176,7 +153,7 @@ h2 {
     vertical-align: middle;
     position: relative;
     right: -920px;
-    top: -50px;
+    top: -40px;
 }
 .theory_button a {
     text-decoration: none;
@@ -312,7 +289,7 @@ h2 {
     text-align: center;
     vertical-align: middle;
     position: relative;
-    top: -50px;
+    top: -40px;
     right: -910px;
 }
 .popular_button a {
@@ -329,21 +306,15 @@ h2 {
     border: 2px solid #c4bbb7;
 }
 .popular_goods {
-    padding-top: 65px;
-    
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 30px;
 }
 .popular1,
 .popular2,
 .popular3 {
-    width: 308px;
-    height: 332px;
     border: 1px solid #d8d8d8;
     background-color: #f2f2f2;
-    display: inline-block;
-    margin-left: 70px;
-}
-.popular1 {
-    margin-left: 0;
 }
 .popular_goods h3 {
     font-size: 16px;
