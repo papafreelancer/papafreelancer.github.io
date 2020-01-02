@@ -21,65 +21,43 @@ header {
     margin: 0 auto;
     padding: 0px 10px;
 }
+.header-flex-row1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    min-height: 130px;
+}
+.header-flex-row1 a {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    padding-left: 20px;
+}
 .logo {
-    margin: 0;
-    padding: 0;
-    padding-top: 42px;
-    width: 160px;
+    flex-basis: 20%;
+    padding-left: 30px;
 }
-.menu-list {
-    list-style: none;
-    text-align: center;
-    width: 60%;
-    margin: 0 auto;
-    margin-top: -40px;
+.main-menu {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
-.menu-list li {
-    display: inline-block;
-    padding-left: 50px;
+.cart {
+    flex-basis: 10%;
 }
-.menu-list a {
-    text-decoration: none;
-    color: #000000;
-    font-family: 'Roboto', sans-serif;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 30px;
-    text-transform: uppercase;
-    transition: .2s;
-    font-weight: bold;
+.header-flex-row2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.menu-list a:hover {
-    border: 1px solid black;
-    padding: 10px;
-}
-.cart-button::before {
-    content: url(img/cart-icon.png);
-    margin-right: 25px;
-    position: absolute;
-    left: -40px;
-    top: -4px;
-    
-}
-.cart-button {
-    text-decoration: none;
-    color: #000000;
-    font-family: 'Roboto', sans-serif;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 30px;
-    text-transform: uppercase;
-    transition: .2s;
-    position: relative;
-    top: -35px;
-    left: 1020px;
-    font-weight: bold;
+.main-img,
+.title {
+    flex-basis: 30%;
 }
 .main-img {
-    float: right;
-}
-.title {
-    margin-top: 85px;
+    order: 1;
+    flex-basis: 25%;
 }
 .title h1 {
     color: #000000;
@@ -110,14 +88,15 @@ header {
     border: none;
 }
 .products {
-    margin-top: 80px;
+    display: flex;
+    min-height: 400px;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    padding-top: 70px;
 }
 .product {
-    display: inline-block;
-    width: 300px;
-    margin-left: 55px;
-    text-align: center;
-}
+    flex-basis: 20%;
+}   
 .product h3 {
     font-family: 'Roboto', sans-serif;
     font-size: 24px;
@@ -125,6 +104,7 @@ header {
     line-height: 30px;
     text-transform: uppercase;
     color: #000000;
+    margin: 0 auto;
     padding-top: 25px;
     padding-bottom: 25px;
     font-weight: bold;
@@ -136,6 +116,8 @@ header {
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
+    margin: 0 auto;
+    text-align: center;
 }
 .product button {
     width: 160px;
@@ -147,6 +129,7 @@ header {
     line-height: 18px;
     margin-top: 35px;
     border: none;
+    margin-left: 65px;
 
 }
 .red button {
@@ -164,29 +147,11 @@ hr {
     color: #eeeeee;
     margin-top: 80px;
 }
-aside {
-    position: absolute;
-    left: 880px;
-    top: 1080px;
-    margin-top: 25px;
-    text-align: center;
-}
-aside img {
-    width: 360px;
-    height: 208px;
-}
-aside p {
-    color: #000000;
-    font-family: 'Roboto', sans-serif;
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 24px;
-    text-transform: uppercase;
-    margin-top: 35px;
-}
-aside table {
-    margin-top: 45px;
-    text-align: center;
+.flex-about {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px;
 }
 .first-line {
     color: #000000;
@@ -203,8 +168,20 @@ aside table {
     line-height: 18px;
     padding-top: 25px;
 }
-.info {
-    width: 60%;
+.company-data {
+    order: 2;
+}
+.company-data p {
+    color: #000000;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    text-transform: uppercase;
+    margin-top: 35px;
+}
+.company-data table {
+    margin-top: 40px;
 }
 .info h2 {
     margin-top: 75px;
@@ -221,10 +198,6 @@ aside table {
     font-weight: 400;
     line-height: 24px;
     margin-top: 40px;
-}
-.info img {
-    margin-top: 45px;
-    position: relative;
 }
 .list-text {
     font-size: 36px;
@@ -246,7 +219,6 @@ aside table {
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
-    
 }
 .info ul li:before {
     content:'+';
@@ -256,15 +228,15 @@ aside table {
     left: -20px;
     top: 5px;
 }
-.partner {
-    display: inline-block;
-    box-sizing: border-box;
-    vertical-align: middle;
-    margin-top: 60px;
-    margin-left: 35px;
+.flex-ref {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 50px;
     padding-left: 35px;
-    border-left: 2px solid #eeeeee;
-    height: 52px;
+}
+.partner {
+    min-height: 52px;
 }
 .ref-hr {
     width: 1160px;
@@ -318,10 +290,14 @@ aside table {
     border: none;
     text-transform: uppercase;
 }
+.footer-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 200px;
+}
 .footer-text {
-    float: right;   
-    margin-bottom: 80px;
-    margin-right: 130px;
+    order: 2;
 }
 .footer-text h2 {
     color: #000000;
@@ -338,12 +314,6 @@ aside table {
     line-height: 22px;
     margin-top: 15px;
 }
-.social {
-    height: 85px;
-    width: 290px;
-    margin-top: 80px;
-
-}
 .social-block {
     display: inline-block;
     width: 80px;
@@ -352,22 +322,13 @@ aside table {
     border-radius: 50%;
     margin-left: 10px;
 }
-.icons {
-    height: 85px;
-    width: 290px;
-    text-align: center;
+.vk::before {
+    content: "";
     position: relative;
-    top: -57px;
-    left: -6px;
-    
-}
-.icon {
-    display: inline-block;
-    width: 80px;
-    height: 40px;
-    margin-left: 10px;
-    vertical-align: middle;
-}
-.icon:first-child {
-    padding-top: 5px;
+    color: blue;
+    width: 20px;
+    height: 20px;
+    background: url(img/vk-icon.png) no-repeat;
+
+
 }
