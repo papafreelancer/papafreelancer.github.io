@@ -3,4 +3,5 @@
 + [The Great Keksby](https://papafreelancer.github.io/keks/ "The Great Keksby") - Лэндинг с использованием технологии Flexbox.
 + [Nerd](https://papafreelancer.github.io/nerds/ "Nerds") -  Лэндинг с использованием технологии Flexbox.
 + [Fitness](https://papafreelancer.github.io/nerds/ "Fitness") - Лэндинг с использованием технологии Flexbox.
++ [John Doe Personal BLog](https://papafreelancer.github.io/JohnDoe/ "John Doe") - Простой сайт-визитка на Grid CSS
 ## Stay tuned
