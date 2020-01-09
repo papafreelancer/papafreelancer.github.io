@@ -4,4 +4,5 @@
 + [Nerd](https://papafreelancer.github.io/nerds/ "Nerds") -  Лэндинг с использованием технологии Flexbox.
 + [Fitness](https://papafreelancer.github.io/fitness/ "Fitness") - Лэндинг с использованием технологии Flexbox.
 + [John Doe Personal BLog](https://papafreelancer.github.io/JohnDoe/ "John Doe") - Простой сайт-визитка на Grid CSS
++ [Vintage Bicycles](https://papafreelancer.github.io/bike/ "Vintage Bicycles") - Сайт с использованием технологий Grid CSS и Flexbox
 ## Stay tuned
