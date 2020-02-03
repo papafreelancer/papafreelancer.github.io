@@ -191,7 +191,7 @@ input[type="text"]:focus {
 }
 select {
     width: 445px;
-    height: 80px;
+    height: 83px;
     padding: 30px 45px;
     margin-top: 5px;
     box-shadow: 0 11px 21px rgba(0, 0, 0, 0.06);
@@ -773,5 +773,17 @@ footer {
         min-width: 768px !important;
         width: 768px;
         max-width: 768px;
+    }
+    input[type="text"] {
+        width: 465px;
+        height: 40px;
+    }
+    select {
+        width: 565px;
+        height: 100px;
+    }
+    .server-select::after {
+        top: 85px;
+        left: 490px;
     }
 }
