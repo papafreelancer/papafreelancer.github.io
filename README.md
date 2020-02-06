@@ -1,5 +1,15 @@
 # Pavel, 24 y/o, Frontend-Developer
-## Hi there. This is my personal repository on GitHub for keeping the projects based on the techonolgies I already know how to use. Some of them are still in the process of learning, so all the websites will be updated soon. 
+## Hi there. This is my personal repository on GitHub for keeping the projects based on the techonolgies I already know how to use:
+
++ HTML5/CSS3
++ CSS3 Animations
++ Flexbox CSS/Grid CSS
++ Bootstrap 3/4
++ JQuery
++ CMS: Textolite, Wordpress
++ Responsive web design, crossbrowser, availability
+
+### Some of them are still in the process of learning, so all the websites will be updated soon. 
 + [The Great Keksby](https://papafreelancer.github.io/keks/ "The Great Keksby") - Landing page using Flexbox CSS.
 + [Nerd](https://papafreelancer.github.io/nerds/ "Nerds") -  Landing page using Flexbox CSS.
 + [Fitness](https://papafreelancer.github.io/fitness/ "Fitness") - Landing page using Flexbox CSS.
