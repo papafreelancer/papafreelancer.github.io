@@ -4,7 +4,7 @@
 + HTML5/CSS3
 + CSS3 Animations
 + Flexbox CSS/Grid CSS
-+ Bootstrap 3/4
++ Bootstrap 4
 + JQuery
 + CMS: Textolite, Wordpress
 + Responsive web design, crossbrowser, availability
