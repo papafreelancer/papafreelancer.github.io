@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    padding: 0;
+    max-width: 1920px;
+    font-family: 'Roboto', sans-serif;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+.item-carous {
+    width: 900px;
+    height: 100px;
+    background: #000;
+}
+.carousel-caption {
+    margin-bottom: 25.5rem !important;
+}
+.navbar-brand {
+    position: relative;
+    display: block;
+}
+.navbar-brand::before {
+    content: "";
+    position: absolute;
+    width: 85.6px;
+    height: 33.6px;
+    top: 5px;
+    left: -40px;
+    background: url(img/tv.svg) 0 0 no-repeat;
+}
