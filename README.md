@@ -16,4 +16,6 @@
 + [John Doe Personal BLog](https://papafreelancer.github.io/JohnDoe/ "John Doe") - Simple Layout made by using Grid CSS.
 + [Vintage Bicycles](https://papafreelancer.github.io/bike/ "Vintage Bicycles") - Landing page with Grid CSS and Flexbox CSS.
 + [Smart RP GTA SA server](https://papafreelancer.github.io/adaptivev1.1/ "Smart RP GTA SA server") - first paid freelance project. First project I'm really proud of. The website is fully adaptive. Enjoy. 
++ [My Bootstrap Shop](https://papafreelancer.github.io/bootstrap1/ "My Bootstrap Shop") - super simple and fast online Shop fully made on Bootstrap 4.
++ [Pricing page](https://papafreelancer.github.io/bootstrap2/ "Pricing page") - simple pricing page for any service fully made on Bootstrap 4 within 1 hour.
 ## Stay tuned
