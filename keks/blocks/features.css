@@ -1,0 +1,122 @@
+.features_wrap {
+    display: flex;
+    min-height: 290px;
+    justify-content: space-between;
+    align-items: center;
+}
+.feature_unit {
+    text-align: center;
+    padding-right: 25px;
+    margin-top: 80px;
+    border-right: 2px solid #d9d9d9;
+}
+.feature_unit:last-child {
+    border: none;
+}
+.feature_unit h3 {
+    color: #a38b70;
+    font-family: Georgia;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 30px;
+    margin-bottom: 15px;
+}
+.feature_unit p {
+    color: #404040;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.feature1 {
+    position: relative;
+}
+.feature1::before {
+    content: "";
+    position: absolute;
+    background: url(..//img/feature1_img.png) no-repeat;
+    width: 65px;
+    height: 61px;
+    top: -85px;
+    left: 35%;
+}
+.feature2 {
+    position: relative;
+}
+.feature2::before {
+    content: "";
+    position: absolute;
+    background: url(..//img/feature2_img.png) no-repeat;
+    width: 65px;
+    height: 57px;
+    top: -85px;
+    left: 35%;
+}
+.feature3 {
+    position: relative;
+}
+.feature3::before {
+    content: "";
+    position: absolute;
+    background: url(..//img/feature3_img.png) no-repeat;
+    width: 51px;
+    height: 57px;
+    top: -85px;
+    left: 35%;
+}
+@media (max-width: 936px) {
+    .features_wrap {
+        flex-direction: column;
+    }
+    .feature_unit {
+        margin-left: 30px;
+        margin-top: 120px;
+        border-right: none;
+        border-bottom: 2px solid #d9d9d9;
+        padding-bottom: 80px;
+        margin-bottom: 15px;
+    }
+    .feature_unit:last-child {
+        margin-bottom: 100px;
+    }
+    .feature_unit h3 {
+        font-size: 35px;
+        margin-bottom: 25px;
+    }
+    .feature_unit p {
+        font-size: 25px;
+    }
+    .feature2::before {
+        left: 38%; 
+    }
+    .feature1::before, .feature3::before {
+        left: 40%;
+    }
+}
+@media (max-width: 480px) {
+    .feature_unit p {
+        line-height: 35px;
+    }
+    .feature2::before {
+        left: 38%; 
+    }
+    .feature1::before, .feature3::before {
+        left: 39%;
+    }
+}
+@media (max-width: 375px) {
+    .feature2::before {
+        left: 35%; 
+    }
+    .feature1::before, .feature3::before {
+        left: 36%;
+    }
+}
+@media (max-width: 375px) {
+    .feature1::before {
+        left: 34%;
+    }
+    .feature2::before {
+        left: 34%; 
+    }
+}

@@ -49,8 +49,8 @@ a {
 }
 .header_nav_link:hover,
 .header_nav_link:focus {
-    color: lightgray;
-    border-bottom: 2px solid lightgray;
+    color: #d9d9d9;
+    border-bottom: 2px solid #d9d9d9;
     transition: all .3s ease;
 }
 .header_nav_link:last-child {
@@ -70,7 +70,91 @@ a {
 }
 .header-btn:hover,
 .header-btn:focus {
-    border: 2px solid lightgray;
-    color: lightgray;
+    border: 2px solid #d9d9d9;
+    color: #d9d9d9;
     transition: all .3s ease;
+}
+.main-title {
+    display: flex;
+    min-height: 440px;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.main-title-text {
+    color: #ffffff;
+    font-family: Georgia;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 55px;
+}
+
+@media (max-width: 1170px) {
+    .header-wrap {
+        justify-content: space-around;
+    }
+}
+@media (max-width: 1024px) {
+    .header-wrap {
+        justify-content: center;
+    }
+    .header_unit {
+        margin-right: 40px;
+    }
+    .header_unit:last-child {
+        margin-right: 0;
+    }
+}
+@media (max-width: 870px) {
+    .header-wrap {
+        flex-direction: column;
+        align-items: center;
+    }
+    .header_logo {
+        margin-left: 60px;
+    }
+    .header_nav {
+        margin-top: 30px;
+        margin-left: 30px;
+    }
+    .header_nav_link {
+        margin-right: 70px;
+        font-size: 25px;
+    }
+    .header_nav_link:last-child {
+        margin-right: 0;
+    }
+    .header-btn {
+        font-size: 25px;
+    }
+    .main-title-text {
+        margin-bottom: 90px;
+    }
+} 
+@media (max-width: 584px) {
+    .header_nav_link {
+        margin-right: 20px;
+    }
+    .header_nav_link:last-child {
+        margin-right: 0;
+    }
+    .main-title-text {
+        font-size: 35px;
+    }
+}
+@media (max-width: 483px) {
+    .header_nav {
+        margin-left: 60px;
+    }
+    .header_nav_link {
+        display: block;
+        margin-bottom: 30px;
+    }
+    .header_nav_link:last-child {
+        margin-bottom: 0;
+    }
+    .main-title {
+        text-align: center;
+    }
 }
