@@ -1,0 +1,112 @@
+.theory {
+    max-width: 1368px;
+    min-height: 619px;
+    background: url(..//img/theory_bg.png) center center no-repeat;
+    background-size: cover;
+    margin-top: 40px;
+}
+.title_btn_container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 70px;
+}
+.theory_title {
+    color: #a38b70;
+    font-family: Georgia;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 55px;
+}
+.theory_btn {
+    color: #a38b70;
+    align-self: flex-end;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: uppercase;
+    border: 2px solid #a38b70;
+    padding: 5px 15px;
+}
+.theory_unit1 {
+    margin-top: 70px;
+}
+.theory_unit h3 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.source {
+    font-size: 16px;
+    line-height: 24px;
+    color: #666666;
+}
+.source_link {
+    color: #a38b70;
+    font-family: Arial;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration: underline;
+}
+.theory_unit p {
+    color: #404040;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-left: 130px;
+    margin-bottom: 100px;
+}
+.theory_unit1 {
+    position: relative;
+}
+.theory_unit1::before {
+    position: absolute;
+    content: "";
+    width: 100px;
+    height: 100px;
+    background: url(..//img/theory_img1.png) no-repeat;
+    top: 40px;
+    left: 0px;
+}
+.theory_unit2 {
+    position: relative;
+    padding-bottom: 30px;
+}
+.theory_unit2::before {
+    position: absolute;
+    content: "";
+    width: 100px;
+    height: 100px;
+    background: url(..//img/theory_img2.png) no-repeat;
+    top: 40px;
+    left: 0px;
+}
+
+@media (max-width: 824px){
+    .theory_unit1::before, .theory_unit2::before {
+        top: 56px;
+    }
+}
+
+@media (max-width: 615px) {
+    .theory_title {
+        text-align: center;
+    }
+   .theory_btn {
+       display: none;
+   }
+   .theory_unit p {
+       margin-left: 115px;
+       line-height: 20px;
+   }
+}
+@media (max-width: 507px) {
+    .theory_unit1::before, .theory_unit2::before {
+        display: none;
+    }
+    .theory_unit h3 {
+        text-align: center;
+    }
+    .theory_unit p {
+        margin-left: 20px;
+    }
+}
