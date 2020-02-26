@@ -1,0 +1,5 @@
+.goods {
+    min-height: 1025px;
+    background: url(..//img/goods_bg.png) no-repeat;
+    background-size: cover;
+}
