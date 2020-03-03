@@ -1,0 +1,15 @@
+.section-wrap {
+    margin-top: 70px;
+}
+.title_span_container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 70px;
+}
+.title_span_container p {
+    color: #404040;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    align-self: center;
+}
