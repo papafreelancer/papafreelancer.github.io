@@ -1,0 +1,6 @@
+footer {
+    margin-top: 70px;
+    min-height: 575px;
+    background: url(../img/background_footer.png) no-repeat;
+    background-size: cover;
+}

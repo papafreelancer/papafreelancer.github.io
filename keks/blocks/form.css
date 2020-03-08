@@ -1,15 +1,127 @@
-.section-wrap {
-    margin-top: 70px;
+.form_and_img {
+  display: flex;
+  justify-content: space-between;
+}
+.form_img {
+  align-self: end;
 }
 .title_span_container {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 70px;
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-between;
 }
 .title_span_container p {
-    color: #404040;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 24px;
-    align-self: center;
+  align-self: center;
+}
+.form_and_img {
+  margin-top: 70px;
+}
+label {
+  color: #404040;
+  font-size: 12px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+.input_text {
+  padding: 10px 15px;
+  width: 493px;
+  margin-top: 10px;
+}
+.tel_form {
+  display: inline-block;
+  margin-top: 25px;
+}
+.input_tel {
+  padding: 10px 15px;
+  margin-top: 10px;
+  width: 220px;
+}
+.email_form {
+  display: inline-block;
+  margin-left: 15px;
+}
+.input_email {
+  padding: 10px 15px;
+  margin-top: 10px;
+  width: 220px;
+}
+.checkbox {
+  margin-top: 45px;
+  opacity: 0;
+  margin-bottom: 40px;
+}
+.checkbox_label {
+  margin-left: 50px;
+  position: relative;
+  color: #404040;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 30px;
+}
+.checkbox_label::before {
+  content: '';
+  position: absolute;
+  width: 26px;
+  height: 26px;
+  border: 2px solid #d5d5d5;
+  top: -9px;
+  left: -60px;
+}
+.checkbox input:checked + .checkbox_label::before {
+  content: '';
+  position: absolute;
+  width: 17px;
+  height: 11px;
+  background: url(../img/galochka_form_sign.png) no-repeat;
+  top: 0px;
+  left: -53px;
+}
+hr {
+  opacity: .4;
+  width: 520px;
+  margin-bottom: 40px;
+}
+.select {
+  margin-top: 10px;
+  padding: 10px 15px;
+  width: 530px;
+  margin-bottom: 25px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+textarea {
+  margin-top: 10px;
+  resize: none;
+  padding: 10px 15px;
+  margin-bottom: 50px;
+}
+.form_btn {
+  border: 2px solid #a38b70;
+  background-color: #a38b70;
+  color: #ffffff;
+  font-size: 18px;
+  line-height: 24px;
+  text-transform: uppercase;
+  padding: 15px 20px;
+
+}
+@media (max-width: 999px) {
+  .title_span_container h2 {
+    margin: 0 auto;
+  }
+  .title_span_container p {
+    display: none;
+  }
+  .form_img {
+    display: none;
+  }
+  form {
+    display: block;
+    margin: 0 auto;
+  }
+  .form_btn {
+    display: flex;
+    justify-content: center;
+  }
 }
