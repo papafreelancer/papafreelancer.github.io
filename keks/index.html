@@ -203,7 +203,7 @@
         </div>
         <div class="form_and_img">
           <form action="#">
-            <p>
+            <p class="name_text">
               <label
                 >Представьтесь, пожалуйста: <br />
                 <input
@@ -235,14 +235,18 @@
                 </label>
               </p>
             </div>
-            <p>
-              <input class="checkbox" type="checkbox"><label
-                class="checkbox_label"
-                >Я согласен получать спам и смс на телефон</label></p>
-            <hr />
+            <br>
+            <p class="checkbox_text">
+              <input type="checkbox" id="agree" checked />
+              <label class="checkbox" for="agree"
+                >Я согласен получать спам и смс на телефон</label
+              >
+            </p>
+
+            <hr>
             <p>
               <label class="select_label"
-                >Тема обращения: <br>
+                >Тема обращения: <br />
                 <select name="select" class="select">
                   <option value="Условия доставки">Условия доставки</option>
                   <option value="Условия возврата">Условия возврата</option>
@@ -251,7 +255,7 @@
             </p>
             <p>
               <label
-                >Текст обращения: <br>
+                >Текст обращения: <br />
                 <textarea
                   name="text"
                   cols="68"
@@ -262,7 +266,7 @@
             </p>
             <a class="form_btn" href="#">Отправить</a>
           </form>
-          <img class="form_img" src="img/form_img.png" alt="form_img">
+          <img class="form_img" src="img/form_img.png" alt="form_img" />
         </div>
       </div>
     </section>
