@@ -5,7 +5,7 @@
 + CSS3 Animations
 + Flexbox CSS/Grid CSS
 + Bootstrap 4
-+ JQuery
++ Vanilla JS, JQuery
 + CMS: Textolite, Wordpress
 + Responsive web design, crossbrowser, availability
 
@@ -18,4 +18,5 @@
 + [Smart RP GTA SA server](https://papafreelancer.github.io/adaptivev1.1/ "Smart RP GTA SA server") - first paid freelance project. First project I'm really proud of. The website is fully adaptive. Enjoy. 
 + [My Bootstrap Shop](https://papafreelancer.github.io/bootstrap1/ "My Bootstrap Shop") - super simple and fast online Shop fully made on Bootstrap 4.
 + [Pricing page](https://papafreelancer.github.io/bootstrap2/ "Pricing page") - simple pricing page for any service fully made on Bootstrap 4 within 1 hour.
++ [Test Task](https://papafreelancer.github.io/test_task/ "Test Task") - a test task from a dev company. I'm kinda proud of this website, so sooner or later I'll clean the code and it'll be useful enough.
 ## Stay tuned
