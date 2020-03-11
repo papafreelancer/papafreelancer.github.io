@@ -10,6 +10,7 @@
 + Responsive web design, crossbrowser, availability
 
 ### Some of them are still in the process of learning, so all the websites will be updated soon. 
++ [CSS Tricks](https://papafreelancer.github.io/tricksCSS/ "CSS Tricks") - Here's a simple page to show you some CSS tricks I can use in web-developing.
 + [The Great Keksby](https://papafreelancer.github.io/keks/ "The Great Keksby") - Landing page using Flexbox CSS.
 + [Nerd](https://papafreelancer.github.io/nerds/ "Nerds") -  Landing page using Flexbox CSS.
 + [Fitness](https://papafreelancer.github.io/fitness/ "Fitness") - Landing page using Flexbox CSS.
