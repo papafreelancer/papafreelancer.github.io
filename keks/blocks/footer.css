@@ -4,3 +4,127 @@ footer {
     background: url(../img/background_footer.png) no-repeat;
     background-size: cover;
 }
+.logo_and_button {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    border-bottom: 1px solid #555555;
+    padding-bottom: 70px;
+}
+.logo_footer {
+    margin-left: 30px;
+}
+.footer_button {
+    margin-top: 56px;
+    align-self: flex-end;
+}
+.footer_lists {
+    display: flex;
+    justify-content: start;
+    margin-top: 50px;
+    border-bottom: 1px solid #555555;
+    padding-bottom: 70px;
+}
+.footer_list_unit {
+    margin-left: 40px;
+}
+.footer_list_unit a {
+    color: #c3c3c3;
+    font-size: 16px;
+    font-weight: 400;
+    
+}
+.footer_list_unit ul li {
+    padding-bottom: 15px;
+}
+.footer_lists ul {
+    list-style: none;
+}
+.first_list_unit {
+    color: #a38b70;
+    font-family: Georgia;
+    font-size: 24px;
+    font-weight: 700;
+    padding-bottom: 15px;
+}
+.footer_social {
+    display: flex;
+    margin-top: 30px;
+}
+.academy_text {
+    margin-top: 20px;
+    margin-left: auto;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+.social_text {
+    margin-top: 20px;
+}
+.social_text_unit {
+    color: #a38b70;
+    font-size: 24px;
+    font-weight: 700;
+}
+.social_icons {
+    margin-left: 40px;
+}
+.icons {
+    margin-left: 20px;
+    border: 1px solid #555555;
+}
+.vk, .insta {
+    padding: 20px;
+}
+.fb {
+    padding: 18px 22px 18px 22px;
+}
+
+@media (max-width: 1120px) {
+    .logo_and_button {
+        justify-content: space-around;
+    }
+}
+@media (max-width: 790px) {
+    .footer_lists {
+        justify-content: center;
+    }
+    .footer_social {
+        flex-direction: column;
+        align-items: center;
+    }
+    .academy_text {
+        margin-left: 0;
+        padding-top: 30px;
+    }
+    .social_text {
+        padding-bottom: 40px;
+    }
+    .social_icons {
+        margin-left: 0;
+    }
+}
+@media (max-width: 790px) {
+    .logo_footer {
+        margin-left: 40px;
+    }
+    .footer_button {
+        display: none;
+    }
+    .footer_lists {
+        flex-direction: column;
+        align-items: center;
+        margin-right: 25px;
+    }
+    .footer_list_unit {
+        margin-bottom: 10px;
+    }
+    .footer_lists ul {
+        text-align: center;
+    }
+    .academy_text {
+        margin-left: 25px;
+    }
+}

@@ -199,10 +199,6 @@ textarea {
     width: 280px;
   }
   .checkbox_text {
-    margin-right: 100px;
-    
-  }
-  .checkbox {
-    font-size: 7px;
+    display: none;
   }
 }

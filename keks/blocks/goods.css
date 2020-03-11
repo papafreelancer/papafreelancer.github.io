@@ -78,5 +78,9 @@
     .goods_card3 {
         margin-left: 15px;
     }
-    
+}
+@media (max-width: 330px) {
+    .goods_title {
+        font-size: 30px;
+    }
 }
