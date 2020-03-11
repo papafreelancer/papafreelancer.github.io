@@ -1,0 +1,12 @@
+.title_block {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+.title_block h1 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+
+@import ("core.css");
