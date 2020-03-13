@@ -1,11 +1,40 @@
+body {
+    max-width: 1920px;
+
+}
 .title_block {
     width: 50%;
     margin: 0 auto;
     text-align: center;
+    margin-bottom: 40px;
 }
 .title_block h1 {
     font-size: 40px;
     font-weight: 700;
+}
+.button_wrap {
+    margin: 0 auto;
+    display: block;
+    width: 700px;
+    height: 200px;
+    position: relative;
+    margin-bottom: 30px;
+}
+.btn_container {
+    display: flex;
+    justify-content: center;
+}
+#my_btn {
+
+    position: absolute;
+    padding: 15px;
+    border-radius: 15px;
+    border: none;
+    background-color: #1488c7;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
 }
 
 
