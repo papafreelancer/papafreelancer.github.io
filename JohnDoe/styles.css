@@ -1,164 +1,67 @@
-* {
-    padding: 0;
-    margin: 0;
-}
 body {
-    max-width: 1360px;
-    min-height: 2700px;
-    height: 1px;
-    overflow-x: hidden;
-}
-.grid-parent {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(6, 2fr);
-    height: 100%;
-    width: 100%;
     font-family: 'Montserrat', sans-serif;
 }
-.child1 {
-    background: url(img/child1.png) no-repeat 100%;
-    grid-column: 1 / 6;
-    grid-row: 1 / 3;
-}
-.child2 {
-    background: url(img/child2.png) no-repeat;
-    grid-column: 1 / 3;
-    text-align: center;
-    position: relative;
-}
-  
-.child2 p, .child4 p, .child5 p, .child6 p, .child7 p, .child9 p {
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: -20px;
+img {
     width: 100%;
-    min-height: 250px;
-    background-color: #666666;
-    opacity: 0;
-    color: #fff;
-    font-size: 24px;
+    height: auto;
+}
+.grid_container {
+    display: grid;
+    grid-template-columns: repeat(4, 400px);
+    grid-template-rows: repeat(6, 500px);
+}
+.unit_1 {
+    grid-column: 1/5;
+    grid-row: 1/3;
+    background: url(img/header_img.png) no-repeat 50% 50%;
+    background-size: cover;
+}
+.header_text {
+    padding: 250px 200px;
+}
+.hero_title {
     font-weight: 400;
-    text-transform: uppercase;
-    margin-bottom: 20px;
-    transition: .8s;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.child2 p:hover, .child4 p:hover, .child5 p:hover, .child6 p:hover, 
-.child7 p:hover, .child9 p:hover {
-    opacity: .9;
-}
-.child3 {
-    background: url(img/child3.png) no-repeat;
-    grid-column: 3 / 5;
-}
-.child4 {
-    background: url(img/child4.png) no-repeat;
-    grid-row: 4; 
-    grid-column: 1;
-    position: relative;
-}
-.child5 {
-    background: url(img/child5.png) no-repeat;
-    grid-row: 4; 
-    grid-column: 2;
-    position: relative;
-}
-.child6 {
-    background: url(img/child6.png) no-repeat;
-    grid-row: 4; 
-    grid-column: 3;
-    position: relative;
-}
-.child7 {
-    background: url(img/child7.png) no-repeat;
-    grid-row: 4; 
-    grid-column: 4;
-    position: relative;
-}
-.child8 {
-    background: url(img/child8.png) no-repeat;
-    grid-row: 5; 
-    grid-column: 1/3;
-}
-.child9 {
-    background: url(img/child9.png) no-repeat;
-    grid-row: 5; 
-    grid-column: 3;
-    position: relative;
-}
-.child10 {
-    background: url(img/child10.png) no-repeat;
-    grid-row: 5; 
-    grid-column: 4;
-}
-.child11 {
-    background: url(img/child11.png) no-repeat;
-    grid-row: 6; 
-    grid-column: 1 / 3;
-}
-.child12 {
-    background: url(img/child12.png) no-repeat;
-    grid-row: 6; 
-    grid-column: 3 / 5;
-}
-.text {
-    margin-left: 160px;
-    margin-top: 290px;
-    max-width: 620px;
-}
-.text h1 {
     font-size: 72px;
-    font-weight: 400;
-    margin-bottom: 30px;
+    letter-spacing: -1.8px;
+    padding-bottom: 30px;
 }
-.text p {
+.hero_text {
     font-size: 30px;
     font-weight: 400;
     line-height: 45px;
+    letter-spacing: -0.75px;
 }
-.child3-text {
-    margin-top: 80px;
-    margin-left: 60px;
-    width: 550px;
+.unit_2 {
+    grid-column: 1/3;
+    grid-row: 3;
 }
-.child3-text h2 {
+.unit_3 {
+    background-color: #f3f1ef;
+    grid-column: 3/5;
+    grid-row: 3;
+}
+.unit3_text {
+    padding: 115px 50px;
+}
+.text_title {
     color: #666666;
     font-size: 24px;
     font-weight: 400;
     text-transform: uppercase;
-    margin-bottom: 20px;
 }
-.child3-text p {
+.unit3_text_unit {
     color: #666666;
     font-size: 36px;
     font-weight: 400;
+    letter-spacing: -0.9px;
 }
-.content, .content11, .content12 {
-    width: 500px;
-    height: 290px;
-    margin-top: 100px;
-    margin-left: 110px;
-    color: #f9f9f9;
-}
-.content h2, .content11 h2, .content12 h2 {
-    font-size: 24px;
-    font-weight: 400;
-    text-transform: uppercase;
-    margin-bottom: 30px;
-}
-.content p, .content11 p, .content12 p {
-    font-size: 32px;
-    font-weight: 400;
-    margin-bottom: 50px;
-}
-.content a, .content11 a, .content12 a {
-    text-decoration: none;
-    color: #f9f9f9;
-    border: 2px solid #f9f9f9;
-    padding: 15px 20px;
-    border-radius: 28px;
+@media(max-width: 998px) {
+    .unit_2 {
+        grid-column: 1/5;
+    }
+    .unit_3 {
+        grid-column: 1/5;
+        grid-row: 4;
+        text-align: center;
+    }
 }
