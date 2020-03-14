@@ -9,7 +9,7 @@ html {
 }
 
 body {
-  max-width: 1368px !important;
+  min-width: 400px;
   overflow-wrap: break-word;
   word-wrap: break-word;
 }
