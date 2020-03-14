@@ -1,6 +1,29 @@
+@import url('core.css');
+
 body {
     max-width: 1920px;
-
+}
+main {
+    background-color: #fff;
+    color: #000;
+    transition: .5s;
+    min-height: 600px;
+}
+#night_mode {
+    display: none;
+}
+#night_mode:checked + main {
+    transition: .5s;
+    background-color: #121212;
+    color: #f8f4ec;
+}
+label {
+    display: block;
+    padding: 25px;
+    display: flex;
+    justify-content: flex-end;
+    text-transform: uppercase;
+    font-weight: bold;
 }
 .title_block {
     width: 50%;
@@ -37,5 +60,3 @@ body {
     font-weight: bold;
 }
 
-
-@import ("core.css");
