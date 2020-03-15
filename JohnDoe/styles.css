@@ -1,5 +1,9 @@
+html {
+    min-width: 420px !important;
+}
 body {
     font-family: 'Montserrat', sans-serif;
+    min-width: 420px !important;
 }
 img {
     width: 100%;
@@ -197,7 +201,7 @@ img {
         text-align: center;
     }
     .unit_12 {
-        grid-row: 15/17;
+        grid-row: 15/18;
         grid-column: 1/5;
         text-align: center;
     }
