@@ -5,7 +5,7 @@
 + CSS3 Animations
 + Flexbox CSS/Grid CSS
 + Bootstrap 4
-+ Vanilla JS, JQuery
++ JavaScript(DOM, JQuery, Ajax)
 + CMS: Textolite, Wordpress
 + Адаптивность, кроссбраузерность, доступность
 
