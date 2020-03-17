@@ -18,5 +18,4 @@
 + [Vintage Bicycles](https://papafreelancer.github.io/bike/ "Vintage Bicycles") - Лендинг, созданный с использованием Grid CSS и Flexbox CSS
 + [Smart RP GTA SA server](https://papafreelancer.github.io/adaptivev1.1/ "Smart RP GTA SA server") - Первый оплаченный проект на фрилансе. Двухстраничный сайт с адаптивностью.
 + [My Bootstrap Shop](https://papafreelancer.github.io/bootstrap1/ "My Bootstrap Shop") - простой и супер быстрый адавтивный онлайн магазин на Bootstrap 4
-+ [Test Task](https://papafreelancer.github.io/test_task/ "Test Task") - тестовое задание от веб-студии, сделанное на Bootstrap 4. Сайт полностью адаптивен.
 ## Stay tuned
