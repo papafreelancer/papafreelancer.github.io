@@ -10,9 +10,7 @@ $ ('#my_btn').hover(function(){
     });
 }, function(){ });
 
-// $('#color_btn').click(function(){
-//     $("#color_btn").text("Light Mode");
-// });
+
 $('.dark').click(function(){
     var $this = $(this);
     $this.toggleClass('.dark');
@@ -21,4 +19,21 @@ $('.dark').click(function(){
     } else {
         $this.text('Light Mode');
     }
+});
+$(document).ready(function($){
+    $('.pop-open').click(function(){
+        $('.pop-up').fadeIn();
+        return false;
+    });
+
+    $('.pop-up-close').click(function(){
+        $(this).parents('.pop-up').fadeOut();
+        return false;
+    });
+
+    $('.pop-up').click(function(e) {
+		if ($(e.target).closest('.pop-up-unit').length == 0) {
+			$(this).fadeOut();					
+		}
+	});
 });
