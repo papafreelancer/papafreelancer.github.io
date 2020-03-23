@@ -5,25 +5,47 @@ header {
     justify-content: space-between;
     align-items: center;
 }
-.logo__block a {
-    text-decoration: none;
-}
-.logo__unit {
-    color: #fff;
-    font-weight: 700;
-    font-size: 23px;
+.logo {
     margin-left: 50px;
-    text-transform: uppercase;
 }
-.nav__block {
-    margin-right: 30px;
-}
-.nav__block a {
+.logo a {
     color: #fff;
     text-decoration: none;
-    margin-right: 25px;
-    font-size: 18px;
+    font-size: 24px;
 }
+.menu {
+    display: flex;
+    align-items: center;
+}
+.menu__item {
+    list-style: none;
+    position: relative;
+}
+.menu__item a {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    text-decoration: none;
+    margin-right: 50px;
+}
+.css_unit, .html_unit, .js_unit, .php_unit, .other_unit {
+    display: none;
+    position: absolute;
+    top: 20px;
+    left: -20px;
+}
+.submenu li {
+    list-style: none;
+}
+.submenu__item {
+    background-color: #010001;
+    padding: 10px 15px;
+}
+.submenu__item:hover {
+    background-color: #1B1A1B;
+    
+}
+
 .main-block {
     display: flex;
     justify-content: center;

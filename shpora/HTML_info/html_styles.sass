@@ -1,0 +1,73 @@
+header 
+    min-height: 70px
+    background-color: #010001
+    display: flex
+    justify-content: space-between
+    align-items: center
+.logo
+    margin-left: 50px
+    a 
+        color: #fff
+        text-decoration: none
+        font-size: 24px
+.menu 
+    display: flex
+    align-items: center
+    &__item 
+        list-style: none
+        position: relative
+        a
+            display: flex
+            justify-content: center
+            color: #ffffff
+            text-decoration: none
+            margin-right: 50px
+.css_unit, .html_unit, .js_unit, .php_unit, .other_unit 
+    display: none
+    position: absolute
+    top: 20px
+    left: -20px
+.submenu li
+    list-style: none
+.submenu__item
+    background-color: #010001
+    padding: 10px 15px
+    &:hover
+        background-color: #1B1A1B
+.main
+    display: flex
+    justify-content: center
+    min-height: 500px
+    align-items: center
+    &__title
+        flex-basis: 45%
+        text-align: center
+    &__text
+        font-family: 'Comfortaa', cursive
+        font-weight: 600
+        font-size: 35px
+        padding-bottom: 40px
+.template 
+    &__title 
+        font-size: 24px
+        text-align: center
+        font-weight: 700
+    &__block
+        padding-top: 50px
+        display: flex
+        justify-content: space-around
+        img 
+            display: block
+            &:nth-child(2)
+                border: 2px solid #e5e5e5
+    &__text
+        display: block
+        width: 50%
+        margin: 50px auto
+    &__list 
+        list-style: none
+    &__link 
+        display: block
+        margin-bottom: 20px
+        span
+            font-weight: 700
