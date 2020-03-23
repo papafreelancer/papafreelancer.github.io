@@ -2,7 +2,7 @@
 ## Всем привет! Добро пожаловать в мой личный репозиторий на GitHub, где я храню свои проекты, реализованные на технологиях, которыми я в данный момент владею:
 
 + HTML5/CSS3
-+ CSS3 Animations
++ SASS/SCSS
 + Flexbox CSS/Grid CSS
 + Bootstrap 4
 + JavaScript(DOM, JQuery, Ajax)
