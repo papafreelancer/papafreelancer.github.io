@@ -1,5 +1,7 @@
 @import url('core.css');
 @import url('units/pop-up.css');
+@import url('units/slick.css');
+@import url('units/slick-theme.css');
 
 body {
     max-width: 1920px;

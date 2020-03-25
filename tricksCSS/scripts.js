@@ -35,5 +35,12 @@ $(document).ready(function($){
 		if ($(e.target).closest('.pop-up-unit').length == 0) {
 			$(this).fadeOut();					
 		}
-	});
+    });
+    $('.slider').slick({
+        dots: true,
+        infinite: true,
+        speed: 300,
+        slidesToShow: 1,
+        adaptiveHeight: true
+    });
 });
