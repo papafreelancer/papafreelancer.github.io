@@ -4,13 +4,55 @@
     background-size: cover;
 }
 .goods_cards_wrap {
+    display: block;
+    margin: 60px auto;
+}
+.slick-slider {
+    position: relative;
+}
+.slick-next {
+    position: absolute;
+    top: 50%; 
+    right: -40px;
+    transform: translateY(-50%);
+    font-size: 0;
+    border: none;
+    background-color: transparent;
+    background: url(../img/arrow.png) center center/100% no-repeat;
+    width: 35px;
+    height: 35px;
+    outline-color: transparent;
+}
+.slick-prev {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: -40px;
+    font-size: 0;
+    border: none;
+    background-color: transparent;
+    background: url(../img/left-arrow.png) center center/100% no-repeat;
+    width: 35px;
+    height: 35px;
+    outline-color: transparent;
+}
+@media (max-width: 489px) {
+    .cards__slider {
+        display: none;
+    }
+}
+.slick-list {
+    overflow: hidden;
+}
+.slick-track {
     display: flex;
-    justify-content: space-between;
-    margin-top: 60px;
-    flex-wrap: wrap;
+}
+.slick-slide {
+    margin: 0 7px;
 }
 .cards {
     border: 1px solid #d8d8d8;
+    max-width: 305px;
 }
 .name_price {   
     margin: 15px 20px 20px 20px;
