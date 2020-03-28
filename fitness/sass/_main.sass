@@ -1,0 +1,114 @@
+.orange 
+    color: $primary-color
+header
+    min-height: 950px
+    background: url(../img/header_bg.png) 100% 100%/cover no-repeat
+.header-top 
+    display: flex
+    justify-content: space-between
+    padding: 30px 35px
+    &__nav
+        display: flex
+    &__logo 
+        font-size: 24px
+        font-weight: 700
+        line-height: 30px
+        text-transform: uppercase
+        a 
+            text-decoration: none
+            color: #ffffff
+    &__menu
+        margin-top: 2px
+        &-list
+            display: flex
+            margin-left: 50px
+            justify-content: center
+            li
+                list-style: none
+        &-link
+            color: #ffffff
+            font-size: 14px
+            line-height: 30px
+            text-transform: uppercase
+            letter-spacing: 1.2px
+            font-weight: 700
+            text-decoration: none
+            margin-right: 25px
+            transition: .5s all
+            padding-bottom: 8px
+            &:hover
+                color: $primary-color
+                border-bottom: 1px solid $primary-color
+        &-btn
+            color: #ffffff
+            font-size: 14px
+            font-weight: 700
+            line-height: 30px
+            text-transform: uppercase
+            letter-spacing: 1.2px
+            padding: 10px 15px
+            border: 1px solid #ffffff
+            text-decoration: none
+            transition: .5s all
+            &:hover
+                color: $primary-color
+                border: 1px solid $primary-color
+
+@media (max-width: 964px)
+    .header-top 
+        flex-direction: column
+        align-items: center
+        &__nav
+            flex-direction: column
+            align-items: center
+        &__logo 
+            margin-bottom: 40px
+            font-size: 35px
+        &__menu
+            margin-bottom: 40px
+            &-link
+                font-size: 18px
+            &-btn
+                display: none
+    .up
+        position: relative
+        top: -1px
+@media (max-width: 964px)
+    .header-top__menu-link 
+        font-size: 15px
+@media screen and (max-width: 569px)
+    .header-top__menu-list 
+        flex-direction: column
+        align-items: center
+        margin-right: 40px
+        li 
+            padding-bottom: 15px
+    .header-top__menu-link 
+        font-size: 18px
+        
+.main-wrap
+    display: flex
+    align-items: center
+    min-height: 500px
+    &__block-title
+        color: #ffffff
+        font-size: 70px
+        font-weight: 700
+        text-transform: uppercase
+        margin-bottom: 5px
+    &__block-text
+        color: #ffffff
+        font-size: 14px
+        line-height: 30px
+        letter-spacing: 1.4px
+        margin-bottom: 85px
+    &__block-btn
+        color: #ffffff
+        font-size: 14px
+        font-weight: 700
+        line-height: 30px
+        text-transform: uppercase
+        letter-spacing: 1.4px
+        text-decoration: none
+        padding: 17px 28px
+        background: $primary-color
