@@ -1,5 +1,16 @@
 $primary-color: #fa7c30
 
+@mixin button
+  color: #ffffff
+  font-size: 14px
+  font-weight: 700
+  line-height: 30px
+  text-transform: uppercase
+  letter-spacing: 1.4px
+  text-decoration: none
+  padding: 17px 28px
+  background: $primary-color
+
 
 *
   margin: 0
@@ -44,3 +55,4 @@ body
   overflow: hidden
 
 @import '_main.sass';
+@import "_form.sass";

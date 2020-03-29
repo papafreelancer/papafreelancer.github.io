@@ -1,0 +1,55 @@
+.form-container
+    position: relative
+    top: 285px
+    display: flex
+    justify-content: center
+    &__box
+        width: 760px
+        min-height: 520px
+        background: #fff
+        &-title
+            padding-top: 70px
+            text-align: center
+            color: #161418
+            font-size: 26px
+            font-weight: 700
+            line-height: 30px
+            text-transform: uppercase
+            padding-bottom: 25px
+        &-text
+            color: #161418
+            font-size: 36px
+            font-weight: 700
+            line-height: 30px
+            text-transform: uppercase
+            text-align: center
+        &-btn
+            @include button
+input, select 
+    border: none
+    border-bottom: 1px solid #161418
+    padding-bottom: 15px
+    outline-color: transparent
+    margin-bottom: 35px
+    color: #161418
+select
+    width: 160px
+    appearance: none
+    opacity: .9
+.form-grid
+    width: 550px
+    margin: 70px auto
+    display: grid
+    grid-template-columns: repeat(3, 1fr)
+    align-items: center
+    &__select
+        position: relative
+        &::after
+            content: ''
+            position: absolute
+            width: 8px
+            height: 5px
+            background-color: red
+            background: url(../img/select_icon.png) 100% 100%/cover no-repeat
+            top: 21%
+            right: 25px
