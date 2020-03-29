@@ -11,7 +11,6 @@
 
 ### Список моих работ:
 + [CSS Tricks](https://papafreelancer.github.io/tricksCSS/ "CSS Tricks") - Простая веб-страница, созданная для демонстраций фишек, которыми я владею.
-+ [Frontend Shpora](https://papafreelancer.github.io/shpora/ "Frontend Shpora") - Самописная фронтенд шпаргалка для хранения полезной информации, которой я уже владею.
 + [The Great Keksby](https://papafreelancer.github.io/keks/ "The Great Keksby") - Адаптивный лендинг, созданный на при помощи Flexbox CSS.
 + [Nerd](https://papafreelancer.github.io/nerds/ "Nerds") -  Адаптивный многостраничный сайт, созданный при помощи Flexbox CSS.
 + [Fitness](https://papafreelancer.github.io/fitness/ "Fitness") - Многостраничный сайт, созданный при помощи Flexbox CSS
